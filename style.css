@@ -1,0 +1,170 @@
+/* Google Fonts */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Blog Section Start */
+
+.box-text h6 {
+  color: #0D6EFD;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box-text h2 {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.box-text h2::after {
+  content: "";
+  position: absolute;
+  width: 7%;
+  height: 4%;
+  top: 115%;
+  left: 45%;
+  background: #0D6EFD;
+}
+
+.box-text p {
+  width: 35%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.blog p {
+    color: #8B8397;
+}
+
+.blog-design h4 {
+    margin: 20px 0;
+}
+
+/* Blog Section End */
+
+
+/* Footer Section Start */
+
+.footer {
+    background: #081828;
+}
+
+.box-1 p {
+    color: #fff;
+    width: 80%;
+    margin: 20px 0;
+}
+
+.box-1 span {
+    color: #fff;
+    margin: 50px 0;
+}
+
+.custom-style {
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+}
+
+.custom-style::after {
+    content: "";
+    position: absolute;
+    width: 1%;
+    height: 65%;
+    top: 17%;
+    left: -3%;
+    background: #0D6EFD;
+}
+
+
+.box-2 li {
+    color: #fff;
+    list-style: none;
+    line-height: 50px;
+}
+
+.cusltom-style-2 {
+    color: #fff;
+    margin-top: 50px;
+}
+
+.custom-style-3 {
+    color: #fff;
+}
+
+.brand img {
+    width: 100%;
+    max-width: 100%;
+    opacity: .5;
+    transition: all .5s;
+}
+
+.brand img:hover {
+    opacity: 1;
+}
+
+.blog-design {
+    position: relative;
+}
+
+.image-overly {
+    position: absolute;
+    right: 20px;
+    bottom: 190px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    width: 235px;
+}
+
+.image-overly img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.image-overly h4 {
+    color: #fff;
+    line-height: 35px;
+    margin: 0;
+}
+
+.box-text h6 {
+    color: #0D6EFD;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-text-2 h2 {
+    width: 80%;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.box-text-2 h2::after {
+    content: "";
+    position: absolute;
+    width: 11%;
+    height: 2%;
+    top: 115%;
+    left: 0%;
+    background: #0D6EFD;
+}
+
+.box-text-2 p {
+    width: 70%;
+    padding-bottom: 50px;
+}
+
